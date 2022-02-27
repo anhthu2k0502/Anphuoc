@@ -6,8 +6,12 @@
     font-family: sans-serif;
     /* background-color: burlywood; */
 }
+body{
+    width: 100%;
+}
 .wrapper{
     position: relative;
+
 }
 /* header-top */
 .header-top{
@@ -18,6 +22,7 @@
     font-size: 13px;
     color: white;
     padding: 0 100px;
+    min-height: 30px;
 }
 .header-top_contactItem {
     display: flex;
@@ -121,7 +126,7 @@ header-menu */
     display: none;
     margin-top: 10px;
 }
-.menu_dropdown:hover div{
+.menu-item-decor:hover div{
     display: block;
 }
 
@@ -156,7 +161,6 @@ header-menu */
 }
 
 .item-dropdown ul{
-    text-align: center;
     display: flex;
     font-size: 15px;
 }
